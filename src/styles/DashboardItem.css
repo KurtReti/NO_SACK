@@ -1,0 +1,16 @@
+.dashboard-card{
+    width: 300px;
+    height: 400px;
+    border: 2px solid rgb(0, 255, 221);
+    border-radius: 5px;
+    color: rgb(0, 255, 221);
+    background-color: rgba(0,225,221,.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-card:hover{
+    background-color: rgba(0,225,221,.40);
+    cursor: pointer;
+}
